@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smileeee | My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@300;400;500;600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- STARFIELD BACKGROUND -->
+    <canvas id="stars-canvas"></canvas>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgressBar"></div></div>
+
+    <!-- CONSTELLATION DOT NAV -->
+    <aside class="dot-nav" aria-label="Section navigation">
+        <a href="#home" class="dot-nav__item active" data-section="home"><span class="dot-nav__dot"></span><span class="dot-nav__label">Home</span></a>
+        <a href="#about" class="dot-nav__item" data-section="about"><span class="dot-nav__dot"></span><span class="dot-nav__label">About</span></a>
+        <a href="#thoughts" class="dot-nav__item" data-section="thoughts"><span class="dot-nav__dot"></span><span class="dot-nav__label">Thoughts</span></a>
+        <a href="#skills" class="dot-nav__item" data-section="skills"><span class="dot-nav__dot"></span><span class="dot-nav__label">Skills</span></a>
+    </aside>
+
+    <!-- NAVIGATION -->
+
+    <header>
+        <nav>
+            <div class="logo">Smileeee<span>.</span></div>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#thoughts">Thoughts</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-text reveal">HELLO, I'M</p>
+
+            <h1 class="reveal magnetic-text">Smileeee<span>.</span></h1>
+
+            <h2 class="reveal">
+                Learning,
+                <span class="highlight">creating</span>
+                &amp; growing.
+            </h2>
+
+            <p class="intro reveal">
+                A curious mind exploring the world of technology,
+                creativity and beautiful ideas.
+            </p>
+
+            <a href="#thoughts" class="button reveal">
+                Explore my world ↓
+            </a>
+
+        </div>
+
+        <div class="floating-star star1">✦</div>
+        <div class="floating-star star2">✧</div>
+        <div class="floating-star star3">✦</div>
+        <div class="floating-star star4">✧</div>
+
+        <div class="scroll-cue" aria-hidden="true">
+            <span></span>
+            <p>scroll</p>
+        </div>
+
+    </section>
+
+
+    <!-- BIG WORD -->
+
+    <section class="big-word">
+
+        <p>dream.</p>
+        <p>learn.</p>
+        <p class="purple">create.</p>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <p class="section-label reveal">A LITTLE ABOUT ME</p>
+
+        <h2 class="reveal">Still learning.<br>Still becoming.</h2>
+
+        <p class="about-text reveal">
+            I believe that every new thing we learn opens
+            a new door. This website is a small collection
+            of my ideas, skills, thoughts and little creations.
+        </p>
+
+        <p class="about-signature reveal">— always mid-chapter, never finished</p>
+
+    </section>
+
+
+    <!-- JOURNAL / QUOTE STRIP -->
+
+    <section class="journal-strip">
+        <div class="journal-strip__line reveal">
+            <span class="journal-strip__mark">“</span>
+            <p>Every skill I pick up is a little door I didn't know was there.</p>
+        </div>
+    </section>
+
+
+    <!-- THOUGHTS -->
+
+    <section id="thoughts" class="thoughts">
+
+        <p class="section-label reveal">WORDS TO REMEMBER</p>
+
+        <h2 class="reveal">Thoughts that feel good.</h2>
+
+        <div class="thought-container">
+
+
+            <!-- CARD 1 -->
+
+            <div class="thought-card reveal">
+                <div class="thought-card__inner">
+                    <div class="thought-card__face thought-card__front">
+                        <div class="icon">✦</div>
+                        <h3>Grow slowly.</h3>
+                        <p class="flip-hint">hover to read ↻</p>
+                    </div>
+                    <div class="thought-card__face thought-card__back">
+                        <p>
+                            You don't need to become everything
+                            at once. Give yourself time to grow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CARD 2 -->
+
+            <div class="thought-card reveal">
+                <div class="thought-card__inner">
+                    <div class="thought-card__face thought-card__front">
+                        <div class="icon">☾</div>
+                        <h3>Trust yourself.</h3>
+                        <p class="flip-hint">hover to read ↻</p>
+                    </div>
+                    <div class="thought-card__face thought-card__back">
+                        <p>
+                            Your path doesn't have to look like
+                            everyone else's to be beautiful.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CARD 3 -->
+
+            <div class="thought-card reveal">
+                <div class="thought-card__inner">
+                    <div class="thought-card__face thought-card__front">
+                        <div class="icon">✧</div>
+                        <h3>Stay curious.</h3>
+                        <p class="flip-hint">hover to read ↻</p>
+                    </div>
+                    <div class="thought-card__face thought-card__back">
+                        <p>
+                            Ask questions. Explore ideas.
+                            Let yourself discover something new.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CARD 4 -->
+
+            <div class="thought-card reveal">
+                <div class="thought-card__inner">
+                    <div class="thought-card__face thought-card__front">
+                        <div class="icon">♡</div>
+                        <h3>Be gentle.</h3>
+                        <p class="flip-hint">hover to read ↻</p>
+                    </div>
+                    <div class="thought-card__face thought-card__back">
+                        <p>
+                            You are learning things for the first
+                            time. Be patient with yourself.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="word-animation">
+
+        <p class="animated-word">
+            <span id="typing-word"></span><span class="cursor">|</span>
+        </p>
+
+        <p class="word-line">
+            Dream. Learn. Create. Become.
+        </p>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="skills">
+
+        <p class="section-label reveal">THINGS I'M LEARNING</p>
+
+        <h2 class="reveal">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill reveal">✦ HTML</div>
+            <div class="skill reveal">✧ CSS</div>
+            <div class="skill reveal">⚡ JavaScript</div>
+            <div class="skill reveal">◇ Python</div>
+            <div class="skill reveal">✎ Creativity</div>
+
+        </div>
+
+        <div class="skill-bars reveal">
+
+            <div class="skill-bar">
+                <div class="skill-bar__top"><span>HTML &amp; CSS</span><span>90%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill" style="--fill:90%"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-bar__top"><span>JavaScript</span><span>70%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill" style="--fill:70%"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-bar__top"><span>Python</span><span>60%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill" style="--fill:60%"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-bar__top"><span>Design &amp; Creativity</span><span>80%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill" style="--fill:80%"></div></div>
+            </div>
+
+        </div>
+
+        <p class="currently-label reveal">currently exploring</p>
+
+        <div class="tag-row reveal">
+            <span class="tag">React</span>
+            <span class="tag">UI Animation</span>
+            <span class="tag">Data with Python</span>
+            <span class="tag">Writing</span>
+        </div>
+
+    </section>
+
+
+    <!-- FINAL MESSAGE -->
+
+    <section class="final-message">
+
+        <div class="floating-star fm-star1">✧</div>
+        <div class="floating-star fm-star2">✦</div>
+
+        <p class="tiny reveal">AND REMEMBER...</p>
+
+        <h2 class="reveal">
+            The best version of you
+            is still <span>becoming.</span>
+        </h2>
+
+        <p class="reveal">
+            Keep learning. Keep creating.
+            Keep your curiosity alive.
+        </p>
+
+        <a href="#home" class="button ghost reveal">Back to the top ↑</a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>© 2026 Smileeee. Made with curiosity &amp; code.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
